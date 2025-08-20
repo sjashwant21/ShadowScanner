@@ -1,4 +1,3 @@
-
 import React, { useState, useRef, useCallback } from 'react';
 import { AnalysisResult, ResultStatus } from './types';
 import { analyzeLSB } from './services/steganalysisService';
@@ -117,7 +116,7 @@ const App: React.FC = () => {
       <canvas ref={canvasRef} className="hidden"></canvas>
       <div className="w-full max-w-2xl mx-auto bg-gray-800 rounded-xl shadow-2xl overflow-hidden">
         <div className="p-8">
-          <h1 className="text-3xl font-bold text-center text-white mb-2">Steganalysis Tool</h1>
+          <h1 className="text-3xl font-bold text-center text-white mb-2">ShadowScanner</h1>
           <p className="text-center text-gray-400 mb-8">Detect LSB Steganography with Chi-Square Attack</p>
           
           <input

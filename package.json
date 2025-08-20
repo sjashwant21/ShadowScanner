@@ -1,5 +1,5 @@
 {
-  "name": "steganalysis-lsb-detector",
+  "name": "shadowscanner",
   "private": true,
   "version": "0.0.0",
   "type": "module",
