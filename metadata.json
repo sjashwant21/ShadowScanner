@@ -1,0 +1,5 @@
+{
+  "name": "Steganalysis LSB Detector",
+  "description": "A client-side tool to detect Least Significant Bit (LSB) steganography in images using a Chi-Square attack. Upload an image to analyze its pixel data for statistical anomalies indicative of hidden messages.",
+  "requestFramePermissions": []
+}
